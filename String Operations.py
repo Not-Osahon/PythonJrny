@@ -56,5 +56,24 @@ print(greeting.upper())
 print(name.lower())
 print(name.replace('l', 'x'))
 
+# TRY AND EXCEPT
+try:
+    temp = float(input("Type the number: "))
+    print(f"100 + {temp} = {100 + temp}")
+except:
+    print("You did not enter in a valid number")
+print("The program did not break")
 
+my_string = "Hello"
+print(my_string.strip("H"))
+
+name = input("What's your name? ")
+age = int(input("What's your age? "))
+height = float(input("What's your height? "))
+print("Your name is", name)
+print("Your age is", age)
+print("Your height is", height)
+f_list = (1,2,3,4,5)
+reversed_flist = f_list[::-1]
+print(type(reversed_flist))
 
